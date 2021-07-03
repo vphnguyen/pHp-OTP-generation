@@ -17,9 +17,9 @@ $con=mysqli_connect(" a, b, b, d ");// server, user, password, database
 2. Create new a row when meet a request from Client.
 3. Save their ID and timestamp.
 4. Get that timestamp.
-5. Using your ID and timestamp as salt, hashed them MD5, SHA-1.
-6. Get the numbers you need (4-6 digits) or hash them again.
-7. Update the last row.
+5. Using your ID and timestamp as salt, hashed them with MD5, SHA-1 or anything you like.
+6. Get the some numbers that you need (4-6 digits).
+7. Update the rest empty column with that OTP from 6.
 
 ===========================
 Dont forget to clean your table before you verifie any confirm from Client.
