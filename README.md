@@ -10,8 +10,8 @@ CREATE TABLE `verification` (
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 ![alt text](https://github.com/vphnguyen/pHp-OTP-generator/blob/main/Table.png?raw=true)
- Column meaning:
-      tenKH      #ID, Username
+\n Column meaning:
+      tenKH      #ID, Username\n
       ngay       #time request
       HASH       #OTP after HASH
       EMAIL      #email to send OTP
