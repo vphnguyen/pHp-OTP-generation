@@ -3,14 +3,18 @@ From Việt Nam with love.
 DATABASE =========================================================
 
 CREATE TABLE `verification` (
-  `tenKH` varchar(255) COLLATE utf8_unicode_ci NOT NULL, #ID, Username
-  `ngay` timestamp NOT NULL DEFAULT current_timestamp(), #time request
-  `HASH` text COLLATE utf8_unicode_ci NOT NULL,          #OTP after HASH
-  `EMAIL` text COLLATE utf8_unicode_ci NOT NULL          #email to send OTP
+  `tenKH` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `ngay` timestamp NOT NULL DEFAULT current_timestamp(), 
+  `HASH` text COLLATE utf8_unicode_ci NOT NULL,          
+  `EMAIL` text COLLATE utf8_unicode_ci NOT NULL          
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 ![alt text](https://github.com/vphnguyen/pHp-OTP-generator/blob/main/Table.png?raw=true)
-
+ Column meaning:
+      tenKH      #ID, Username
+      ngay       #time request
+      HASH       #OTP after HASH
+      EMAIL      #email to send OTP
 PHP code =========================================================
 
 $con=mysqli_connect(" a, b, b, d ");// server, user, password, database
