@@ -1,6 +1,6 @@
 # pHp-OTP-generation
 From Việt Nam with love.
-![alt text](?raw=true)
+![alt text](https://github.com/vphnguyen/pHp-OTP-generator/blob/main/Table.png?raw=true)
 DATABASE =========================================================
 
 CREATE TABLE `verification` (
