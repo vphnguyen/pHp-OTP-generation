@@ -11,10 +11,10 @@ CREATE TABLE `verification` (
 
 ![alt text](https://github.com/vphnguyen/pHp-OTP-generator/blob/main/Table.png?raw=true)</br>
 Column meaning:</br>
-      tenKH      #ID, Username</br>
-      ngay       #time request</br>
-      HASH       #OTP after HASH</br>
-      EMAIL      #email to send OTP</br>
+      tenKH  ==  ID, Username</br>
+      ngay   ==  time request</br>
+      HASH   ==  OTP after HASH</br>
+      EMAIL  ==  email to send OTP</br>
 PHP code =========================================================
 
 $con=mysqli_connect(" a, b, b, d ");// server, user, password, database
