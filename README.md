@@ -10,11 +10,11 @@ CREATE TABLE `verification` (
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 ![alt text](https://github.com/vphnguyen/pHp-OTP-generator/blob/main/Table.png?raw=true)</br>
-Column meaning:
-      tenKH      #ID, Username\n
-      ngay       #time request
-      HASH       #OTP after HASH
-      EMAIL      #email to send OTP
+Column meaning:</br>
+      tenKH      #ID, Username</br>
+      ngay       #time request</br>
+      HASH       #OTP after HASH</br>
+      EMAIL      #email to send OTP</br>
 PHP code =========================================================
 
 $con=mysqli_connect(" a, b, b, d ");// server, user, password, database
