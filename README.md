@@ -1,14 +1,15 @@
 # pHp-OTP-generation
 From Việt Nam with love.
-![alt text](https://github.com/vphnguyen/pHp-OTP-generator/blob/main/Table.png?raw=true)
 DATABASE =========================================================
 
 CREATE TABLE `verification` (
-  `tenKH` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `ngay` timestamp NOT NULL DEFAULT current_timestamp(),
-  `HASH` text COLLATE utf8_unicode_ci NOT NULL,
-  `EMAIL` text COLLATE utf8_unicode_ci NOT NULL
+  `tenKH` varchar(255) COLLATE utf8_unicode_ci NOT NULL, #ID, Username
+  `ngay` timestamp NOT NULL DEFAULT current_timestamp(), #time request
+  `HASH` text COLLATE utf8_unicode_ci NOT NULL,          #OTP after HASH
+  `EMAIL` text COLLATE utf8_unicode_ci NOT NULL          #email to send OTP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+![alt text](https://github.com/vphnguyen/pHp-OTP-generator/blob/main/Table.png?raw=true)
 
 PHP code =========================================================
 
