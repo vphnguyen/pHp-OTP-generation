@@ -1,4 +1,4 @@
-# pHp-OTP-generate
+# php-OTP-generate
 From Việt Nam with love.
 DATABASE =========================================================
 
