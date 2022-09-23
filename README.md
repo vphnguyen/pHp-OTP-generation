@@ -1,5 +1,5 @@
 # php-OTP-generate
-From Việt Nam with love.
+
 DATABASE =========================================================
 
 CREATE TABLE `verification` (
