@@ -1,4 +1,4 @@
-# pHp-OTP-generation
+# pHp-OTP-generate
 From Việt Nam with love.
 DATABASE =========================================================
 
